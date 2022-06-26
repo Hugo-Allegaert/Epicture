@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/damion"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="59sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="201dp"
+        android:layout_height="65dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/connect"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/anglais_language"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:src="@drawable/flag"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageButton
+        android:id="@+id/espagnol_language"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:src="@drawable/flag_spanish"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageButton
+        android:id="@+id/français_language"
+        android:layout_width="50dp"
+        android:layout_height="33dp"
+        android:src="@drawable/flag_french"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center_horizontal"
+        android:text="@string/made"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

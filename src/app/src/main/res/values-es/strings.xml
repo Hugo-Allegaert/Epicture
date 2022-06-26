@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:locale="es" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Epicture</string>
+    <string name="Phototitle">Título de la foto</string>
+    <string name="connect">Conectarse</string>
+    <string name="errorAppend">Se ha producido un error</string>
+    <string name="favoris">Favoritos</string>
+    <string name="imgurApi">https://api.imgur.com/3/</string>
+    <string name="urlAccountImg">https://api.imgur.com/3/account/me/images</string>
+    <string name="urlFavImg">https://api.imgur.com/3/account/</string>
+    <string name="urlImg">https://i.imgur.com/</string>
+    <string name="urlLogin">https://api.imgur.com/oauth2/authorize?client_id=4340f18035eaeb0</string>
+    <string name="views">vistas</string>
+    <string name="rechercheici">Busque aquí...</string>
+    <string name="recherche">Buscar</string>
+    <string name="profil">Perfil</string>
+    <string name="noImageChoosen">No elegiste una imagen</string>
+    <string name="made">Hecho por Hugo Allegaert y Romain Lefebvre</string>
+    <string name="upload">Enviar</string>
+    <string name="wellUpload">Su imagen ha sido publicada</string>
+</resources>
